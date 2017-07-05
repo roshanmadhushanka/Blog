@@ -1,0 +1,28 @@
+<news_list>
+    <news>
+        <title> Machine Learning Techniques for Predictive Maintenance </title>
+        <content>
+            Predictive maintenance predicts failure, and the actions could include corrective actions, the replacement of system, or even planned failure. This can lead to major cost savings, higher predictability,  and the increased availability of the systems.
+        </content>
+        <image> news/news1/image.png </image>
+        <reference> https://www.infoq.com/articles/machine-learning-techniques-predictive-maintenance </reference>
+    </news>
+    <news>
+        <title> Change Detection Optimization in Frequently Changing Web Pages </title>
+        <content> Web pages at present have become dynamic and frequently changing, compared to the past where web pages contained static content which did not change often. People have the need to keep track of web pages which are of interest to them, using bookmarks in the web browser and continuously keep track of them in order to get the updates. Tracking changes which occur in these bookmarked web pages and getting updates has become a significant challenge in the current context. </content>
+        <image> news/news2/image.jpg </image>
+        <reference> https://www.researchgate.net/publication/317286196_Change_Detection_Optimization_in_Frequently_Changing_Web_Pages </reference>
+    </news>
+    <news>
+        <title> Adaptive Technique for Web Page Change Detection using Multi-threaded Crawlers </title>
+        <content> Search engines require to detect changes in the web to keep search indexes up to date. Numerous researches have been carried out on optimizing the change detection algorithms. This paper presents a methodology named Multi-Threaded Crawler for Change Detection of Web (MTCCDW), which is inspired from the producer-consumer problem. </content>
+        <image> news/news3/image.png </image>
+        <reference> https://www.researchgate.net/publication/317647089_Adaptive_Technique_for_Web_Page_Change_Detection_using_Multi-threaded_Crawlers </reference>
+    </news>
+    <news>
+        <title> Introduction to Semi-supervised Learning [H2O.ai][Python] </title>
+        <content> In supervised machine learning for classification, we are using data-sets with labeled response variable. But when it comes to big data analytics, it is hard to find labeled data-sets. Because as humans, we might take a lot of time to complete the labeling process. So, in this article I am going to explain how we can use semi-supervised learn to overcome this problem. </content>
+        <image> news/news4/image.png </image>
+        <reference> https://medium.com/tech-vision/introduction-to-semi-supervised-learning-h2o-ai-python-6f08c69decba </reference>
+    </news>
+</news_list>

@@ -1,0 +1,42 @@
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>.:: Roshan Alwis ::.</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap-theme.min.css') }}">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header pull-left">
+                    <a class="navbar-brand" href="#"> Roshan's Blog </a>
+                </div>
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav pull-right">
+                        <li role="presentation"><a href="main"> Home </a></li>
+                        <li role="presentation"><a href="#"> Projects </a></li>
+                        <li role="presentation" class="active"><a href="#"> Publications </a></li>
+                        <li role="presentation"><a href="#"> About </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="jumbotron">
+            <div><h1>Roshan Alwis</h1></div>
+            <img src="{{ url_for('static', filename='images/profile.jpg') }}" class="img-circle" style="width:100px;height:100px;">
+        </div>
+
+        <div class="footer">
+            <nav class="navbar navbar-inverse">
+            </nav>
+        </div>
+    </div>
+
+</body>
+</html>
