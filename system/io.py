@@ -1,11 +1,11 @@
 import xml.etree.ElementTree as ET
 
 # News update
-NEWS_TAG = "news"
-TITLE = "title"
-CONTENT = "content"
-IMAGE = "image"
-REFERENCE = "reference"
+NEWS_ROOT = "news"
+NEWS_TAGS = ['title', 'content', 'image', 'reference']
+
+# Projects update
+
 
 class FileHandler:
     def read(self, file_name):
@@ -38,9 +38,15 @@ class FileHandler:
 
         news_list = []
         for node in root:
-            if node.tag == NEWS_TAG:
+            if node.tag == NEWS_ROOT:
                 news = {}
                 for column in node:
+                    if column not in NEWS_TAGS:
+                        print "Invalid tag :", column
+                        break
                     news[column.tag] = str(column.text).strip()
                 news_list.append(news)
         return news_list
+
+    def read_projects_xml(self, file_name):
+        tree = ET.parse(file_name)
