@@ -64,7 +64,7 @@ class FileHandler:
             if node.tag == NEWS_ROOT:
                 news = {}
                 for column in node:
-                    if column not in NEWS_TAGS:
+                    if column.tag not in NEWS_TAGS:
                         print "Invalid tag :", column
                         break
                     news[column.tag] = str(column.text).strip()
@@ -86,7 +86,7 @@ class FileHandler:
             if node.tag == PROJECT_ROOT:
                 project = {}
                 for column in node:
-                    if column not in PROJECT_TAGS:
+                    if column.tag not in PROJECT_TAGS:
                         print "Invalid tag :", column
                         break
                     project[column.tag] = column

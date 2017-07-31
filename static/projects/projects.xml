@@ -1,16 +1,23 @@
 <projects>
     <project>
-        <title></title>
-        <description></description>
+        <title> Parallel Matrix Multiply </title>
+        <description>
+            Parallel Matrix Multiplication is C language based method that efficiently multiply matrices with the help
+            of parallel-for implementation in OpenMP library. Apart from that, performance has further improved by optimizing
+            algorithm to reduce cache misses.
+        </description>
         <image></image>
-        <link></link>
-        <tag></tag>
+        <link> https://github.com/roshanmadhushanka/Parallel-Matrix-Multiply/tree/master </link>
+        <tag> Performance </tag>
     </project>
     <project>
-        <title></title>
-        <description></description>
+        <title> h2opojo </title>
+        <description>
+            H2opojo is a java extension, which is designed to use H2O.ai models in WSO2 CEP. This extension only supports
+            for H2O POJO models.
+        </description>
         <image></image>
-        <link></link>
-        <tag></tag>
+        <link> https://github.com/roshanmadhushanka/h2opojo </link>
+        <tag> Stream Processing </tag>
     </project>
 </projects>
