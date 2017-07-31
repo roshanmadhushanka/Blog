@@ -32,8 +32,15 @@
             <img src="{{ url_for('static', filename='images/profile.jpg') }}" class="img-circle" style="width:100px;height:100px;">
         </div>
 
-        <div>
-
+        <div class="form-group">
+            {% for project in projectList %}
+                <div class="row">
+                    <div class="text-center"><h4 class="light"><b> {{ project.title }} </b></h4></div>
+                    <img src="{{ url_for('static', filename=project.image) }}" class="img-circle center-block" class="img-circle" style="width:100px;height:100px;"/>
+                    <p class="text-center"> {{ project.description }}</p>
+                    <a href="{{ project.link }}" class="btn btn-info center-block"> More </a>
+                </div>
+            {% endfor %}
         </div>
 
         <div class="footer">

@@ -16,7 +16,8 @@ def route_home():
 
 @app.route('/projects')
 def route_projects():
-    return render_template('projects.html')
+    project_list = boot.load_projects()
+    return render_template('projects.html', projectList=project_list)
 
 
 @app.route('/publications')

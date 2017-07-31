@@ -89,6 +89,6 @@ class FileHandler:
                     if column.tag not in PROJECT_TAGS:
                         print "Invalid tag :", column
                         break
-                    project[column.tag] = column
+                    project[column.tag] = str(column.text).strip()
                 project_list.append(project)
         return project_list
