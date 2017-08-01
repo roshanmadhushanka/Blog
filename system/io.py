@@ -6,7 +6,7 @@ NEWS_TAGS = ['title', 'content', 'image', 'reference']
 
 # Projects update
 PROJECT_ROOT = "project"
-PROJECT_TAGS = ['title', 'description', 'image', 'link', 'tag']
+PROJECT_TAGS = ['title', 'description', 'image', 'link', 'tags']
 
 
 class FileHandler:
@@ -89,6 +89,12 @@ class FileHandler:
                     if column.tag not in PROJECT_TAGS:
                         print "Invalid tag :", column
                         break
-                    project[column.tag] = str(column.text).strip()
+                    if column.tag == "tags":
+                        tag_list = []
+                        for sub_column in column:
+                            tag_list.append(str(sub_column.text).strip())
+                        project[column.tag] = tag_list
+                    else:
+                        project[column.tag] = str(column.text).strip()
                 project_list.append(project)
         return project_list

@@ -8,7 +8,10 @@
         </description>
         <image></image>
         <link> https://github.com/roshanmadhushanka/Parallel-Matrix-Multiply/tree/master </link>
-        <tag> Performance </tag>
+        <tags>
+            <tag> C </tag>
+            <tag> Performance </tag>
+        </tags>
     </project>
     <project>
         <title> h2opojo </title>
@@ -18,6 +21,37 @@
         </description>
         <image></image>
         <link> https://github.com/roshanmadhushanka/h2opojo </link>
-        <tag> Stream Processing </tag>
+        <tags>
+            <tag> Java </tag>
+            <tag> Stream Processing </tag>
+        </tags>
+    </project>
+    <project>
+        <title> Feature Processor </title>
+        <description>
+            Feature processor is a python platform where you can do feature engineering to your dataset. All the underline
+            functionality in Feature Processor is based on pandas, scipy numpy, sklearn-pandas and other python libraries.
+            This processing platform only support data in CSV format with headers.
+        </description>
+        <image></image>
+        <link> https://github.com/roshanmadhushanka/FeatureProcessor </link>
+        <tags>
+            <tag> Python </tag>
+            <tag> Machine Learning </tag>
+        </tags>
+    </project>
+    <project>
+        <title> Feature Engineering for Machine Learning </title>
+        <description>
+            This repository will give you a basic idea about how to use feature engineering along side with machine learning.
+            All the new feature engineering processes that describe here have been carried out using python featureeng package.
+            The simulation has done for NASA Turbofan Degradation and Yahoo Web Scope data sets
+        </description>
+        <image></image>
+        <link> https://github.com/roshanmadhushanka/Machine-Learning </link>
+        <tags>
+            <tag> Python </tag>
+            <tag> Machine Learning </tag>
+        </tags>
     </project>
 </projects>
